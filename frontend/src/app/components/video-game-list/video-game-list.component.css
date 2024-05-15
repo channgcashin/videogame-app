@@ -1,0 +1,17 @@
+.video-game {
+	display: flex;
+	padding: 10px 15px;
+    height: auto;
+    gap: 10px 30px;
+    color: lightgrey
+}
+.video-game .buttons {
+    position: absolute;
+    right: 10px;
+}
+
+.searchbar {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 10px;
+}
