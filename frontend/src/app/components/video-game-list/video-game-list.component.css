@@ -1,6 +1,9 @@
 .video-game {
 	display: flex;
-	padding: 10px 15px;
+	padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom:10px;
+    margin: 10px 0px;
     height: auto;
     gap: 10px 30px;
     color: lightgrey
@@ -11,8 +14,16 @@
     right: 10px;
 }
 
+.video-game-list {
+    padding-left: 10px;
+}
+
 .searchbar {
+    padding-top: 10px;
     display: flex;
     justify-content: space-evenly;
-    padding-top: 10px;
+}
+
+.mat-list {
+    padding-left: 20px;
 }

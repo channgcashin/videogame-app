@@ -10,18 +10,8 @@ Run `npm start` to run the server on `http://localhost:3001/videogames'.
 
 Run `npm start` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
 
-## Build
+## Functions
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+1. To add a video game to the list simply type in the name of the game and click the add icon.
+2. To edit a video game listing, type your edit into the search bar then click the edit button of the listing you want to change.
+3. To delete a video game listing, simply click the delete button next to the game you are wanting to delete.

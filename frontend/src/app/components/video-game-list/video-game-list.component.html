@@ -12,9 +12,9 @@
             <mat-icon>add</mat-icon>
         </button>
     </div>
-    <mat-list>
+    <mat-list class="video-game-list">
         <mat-list-item class="video-game" *ngFor="let videoGame of videoGames$ | async;">
-            <span class="content">{{videoGame.id}}. {{videoGame.name}}</span>
+            <span class="content">{{videoGame.name}}</span>
             <span class="buttons">
                 <button 
                     (click)="put(videoGame.id, videoGameInput.value)"
