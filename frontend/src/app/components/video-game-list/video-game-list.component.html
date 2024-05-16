@@ -2,18 +2,37 @@
     <div class="searchbar">
         <mat-form-field style="width: 90%">
             <mat-label>Video Game</mat-label>
-            <input matInput placeholder="Ex. League of Legends">
+            <input #videoGameInput matInput placeholder="Ex. League of Legends">
         </mat-form-field>
-        <button mat-fab color="primary">
+        <button 
+            (click)="post(videoGameInput.value)" 
+            mat-fab 
+            color="primary"
+        >
             <mat-icon>add</mat-icon>
         </button>
     </div>
     <mat-list>
-        <mat-list-item class="video-game" *ngFor="let videogame of videogames;">
-            <span class="content">{{videogame.id}}. {{videogame.name}}</span>
+        <mat-list-item class="video-game" *ngFor="let videoGame of videoGames$ | async;">
+            <span class="content">{{videoGame.id}}. {{videoGame.name}}</span>
             <span class="buttons">
-                <button color="primary" mat-raised-button class="edit" style="margin:0px 10px">Edit</button>
-                <button color="accent" mat-raised-button class="delete">Delete</button>
+                <button 
+                    (click)="put(videoGame.id, videoGameInput.value)"
+                    color="primary" 
+                    mat-raised-button 
+                    class="edit" 
+                    style="margin:0px 10px"
+                >
+                    Edit
+                </button>
+                <button 
+                    (click)="delete(videoGame.id)"
+                    color="accent" 
+                    mat-raised-button 
+                    class="delete"
+                >
+                    Delete
+                </button>
             </span>
         </mat-list-item>
     </mat-list>
