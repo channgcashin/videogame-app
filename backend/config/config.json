@@ -1,6 +1,6 @@
 {
-    "host": "monorail.proxy.rlwy.net",
+    "host": "localhost",
     "user": "root",
-    "database": "railway",
-    "password": "oMAeltWarlWuagHUINuJioFDdPhrJZzf"
+    "database": "videogames",
+    "password": "4382cclj"
 }
