@@ -11,7 +11,7 @@ Create MySQL database and change the backend/config/config.json file's password 
 Run `npm install` tp download all dependencies.
 Run `npm start` to run the server.
 
-## In Frontend Directory (`../cd backend`)
+## In Frontend Directory (`../cd frontend`)
 
 Run `npm install` tp download all dependencies.
 Run `npm start` to run the app on a development server. Navigate to `http://localhost:4200/`.
