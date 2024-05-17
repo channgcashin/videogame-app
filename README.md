@@ -1,13 +1,17 @@
 # VideogameApp
 
-To run on own development machine git clone the respository.
+To run on own development machine git clone the respository and setup MYSQL, Node.js, and Angular
 
-## In Backend Direcotry
+## Database
+
+Create MySQL database and change the backend/config/config.json file's password feild to match your databases.
+
+## In Backend Directory (`cd backend`)
 
 Run `npm install` tp download all dependencies.
 Run `npm start` to run the server.
 
-## In Frontend Directory
+## In Frontend Directory (`../cd backend`)
 
 Run `npm install` tp download all dependencies.
 Run `npm start` to run the app on a development server. Navigate to `http://localhost:4200/`.
